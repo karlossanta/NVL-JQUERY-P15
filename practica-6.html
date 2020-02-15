@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="utf-8">
+    <title>NVL-JQUERY-P14b</title>
+    <style>
+        img {
+            height: 400px;
+            /* Queda mejor la animación visualmente */
+            vertical-align: middle;
+        }
+        /* Centramos las imágenes horizontalmente */
+        .imagenes {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            width: 100%;
+        }
+        /* hacemos que la segunda imagen no se muestre */
+        #imagen2 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Animaciones</h1>
+    <div class="imagenes">
+        <img id= "imagen1" src="mechanic.jpg">
+        <img id= "imagen2" src="transformers.jpg">
+    </div>
+    
+    
+</body>
+
+<!-- El Javascript que modifique el DOM debe ir al final del documento -->
+<script src="jquery.js"></script>
+<script src="practica-6.js" type="application/javascript"></script>
+
+</html>
